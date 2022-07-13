@@ -1,0 +1,79 @@
+.main-probe-wrapper {
+  display: flex;
+}
+
+.probe-border {
+  outline: 1px solid grey;
+  border-radius:2px;
+}
+
+.probe{
+  float: left;
+  margin: 10px 15px;
+  padding: 5px;
+  width: 150px;
+  height: 200px;
+  background-color: #c4c4c4;
+  border-radius: 15px 15px 0px 0px;
+
+}
+
+.probe-label {
+  text-align: center;
+}
+
+.probe-bottom {
+  width: 0;
+  height: 0;
+  margin-top: 52px;
+  margin-left: -6px;
+  padding-left: 72px;
+
+  border-left: 45px solid transparent;
+  border-right: 45px solid transparent;
+  border-top: 99px solid #c4c4c4;
+}
+
+.moisture-dry{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background-color: #85586f;
+  border-radius: 7.5px;
+  margin: 10px 0px;
+  padding-top: 20px;
+  height: 50px;
+}
+
+.moisture-ok{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background-color: #94b49f;
+  border-radius: 7.5px;
+  margin: 10px 0px;
+  padding-top: 20px;
+  height: 50px;
+}
+
+.moisture-wet{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background-color: #4cacbc;
+  border-radius: 7.5px;
+  margin: 10px 0px;
+  padding-top: 20px;
+  height: 50px;
+}
+
+.flush-pump{
+  text-align: center;
+  bottom: 0;
+  margin-left: 25px;
+  padding: 10px;
+  height: 40px;
+  background-color: #A0D995;
+  border-radius: 7.5px;
+  outline: 1px solid #4B8673;
+}

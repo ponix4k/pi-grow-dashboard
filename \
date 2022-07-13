@@ -1,0 +1,14 @@
+function ProbeCard (){
+    return (
+        <div className="main-wrapper">
+
+            <div className="moisture">
+            </div>
+            <div className="moisture-slider">
+            </div>
+            <div className="flush-pump">
+            </div>
+
+        </div>
+    );
+}
